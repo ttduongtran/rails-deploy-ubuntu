@@ -1,0 +1,54 @@
+[ N 2021-04-23 02:52:52.2092 15855/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2021-04-23 02:52:52.2253 15858/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2021-04-23 02:52:52.2254 15858/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2021-04-23 02:52:52.2376 15858/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 15858
+
+[ N 2021-04-23 02:52:54.2068 15858/T5 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2021-04-23 02:52:54.2069 15858/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2021-04-23 02:52:54.2083 15858/T5 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2021-04-23 02:52:54.2083 15858/T5 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2021-04-23 02:52:54.2083 15858/T8 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2021-04-23 02:52:54.2083 15858/T8 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+/home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:132:in `initialize': Connection refused - connect(2) for "::1" port 3000 (Errno::ECONNREFUSED)
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:132:in `new'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:132:in `rescue in connect'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:129:in `connect'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:89:in `socket'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:108:in `head_request'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:172:in `<main>'
+/home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:130:in `initialize': Connection refused - connect(2) for "127.0.0.1" port 3000 (Errno::ECONNREFUSED)
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:130:in `new'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:130:in `connect'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:89:in `socket'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:108:in `head_request'
+	from /home/deploy/.rbenv/versions/2.6.7/lib/ruby/gems/2.6.0/gems/passenger-6.0.8/src/helper-scripts/prespawn:172:in `<main>'
+[ N 2021-04-23 02:52:55.1856 15858/Tb age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2021-04-23 02:52:55.2088 15858/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2021-04-23 02:53:48.5730 16033/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2021-04-23 02:53:48.5857 16036/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2021-04-23 02:53:48.5858 16036/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2021-04-23 02:53:48.5904 16036/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 16036
+2021/04/23 02:53:50 [error] 16045#0: *4 "/var/www/myapp/code/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2021-04-23 02:53:51.4800 16036/T7 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2021-04-23 02:54:06.6061 16036/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2021-04-23 02:54:06.6062 16036/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2021-04-23 02:54:06.6063 16036/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2021-04-23 02:54:06.6063 16036/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2021-04-23 02:54:06.6063 16036/T9 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2021-04-23 02:54:06.6063 16036/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2021-04-23 02:54:07.4678 16036/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2021-04-23 02:54:12.0442 16196/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2021-04-23 02:54:12.0567 16199/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2021-04-23 02:54:12.0567 16199/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2021-04-23 02:54:12.0609 16199/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 16199
+2021/04/23 02:54:14 [error] 16208#0: *4 "/var/www/myapp/code/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2021-04-23 02:54:15.0904 16199/T9 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2021-04-23 02:56:03.7624 16199/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2021-04-23 02:56:03.7625 16199/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2021-04-23 02:56:03.7626 16199/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2021-04-23 02:56:03.7626 16199/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2021-04-23 02:56:03.7626 16199/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2021-04-23 02:56:03.7626 16199/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2021-04-23 02:56:04.7743 16199/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
